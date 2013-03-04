@@ -89,7 +89,7 @@ $("#play").click(function() {
 	var data = instrument_fm(fp,fm,I*fm,m,t);
 	var dataInt = Array(data.length);
 	for (var i=0; i<data.length; i++) {
-		dataInt[i] = 128 + Math.floor(data[i] * 127);
+		dataInt[i] = 128 + Math.round(data[i] * 127);
 	}
 	console.log(dataInt);
 
