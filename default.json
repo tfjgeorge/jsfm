@@ -1,0 +1,56 @@
+[
+    {
+        "id": "modulator_frequency",
+        "type": "envelope",
+        "base": 440
+    },
+    {
+        "id": "oscillator_base_frequency",
+        "type": "envelope",
+        "base": 440
+    },
+    {
+        "id": "modulator_envelope",
+        "type": "envelope",
+        "base": 880
+    },
+    {
+        "id": "modulator",
+        "type": "oscillator",
+        "frequency": "modulator_frequency"
+    },
+    {
+        "id": "oscillator_variable_frequency",
+        "type": "multiply",
+        "from": [
+            "modulator",
+            "modulator_envelope"
+        ]
+    },
+    {
+        "id": "oscillator",
+        "type": "oscillator",
+        "frequency": "oscillator_frequency"
+    },
+    {
+        "id": "oscillator_frequency",
+        "type": "add",
+        "from": [
+            "oscillator_variable_frequency",
+            "oscillator_base_frequency"
+        ]
+    },
+    {
+        "id": "oscillator_envelope",
+        "type": "envelope",
+        "base": 1
+    },
+    {
+        "id": "output",
+        "type": "multiply",
+        "from": [
+            "oscillator",
+            "oscillator_envelope"
+        ]
+    }
+]
