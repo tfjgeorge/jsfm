@@ -24,23 +24,25 @@ $("#play_button").click(function() {
 		playing = true;
 	}
 });
-$("input").change(function() {
+$("input").change(function() { update_parameters(); });
+
+var update_parameters = function() {
 	fp = parseFloat($("#fp").val());
 	fm = parseFloat($("#fm").val());
 	mod_index = parseFloat($("#i").val()) * fp;
 	
-	var data = buffer_fp.getChannelData(0);
+	var data1 = buffer_fp.getChannelData(0);
 	for (var i=0; i<512; i++) {
-		data[i] = fp;
+		data1[i] = fp;
 	}
 
-	data = buffer_fm.getChannelData(0);
+	var data2 = buffer_fm.getChannelData(0);
 	for (var i=0; i<512; i++) {
-		data[i] = fm;
+		data2[i] = fm;
 	}
 	audionodes.modulation_index.gain.value = mod_index;
 	
-});
+};
 
 
 var audionodes = {};
@@ -64,14 +66,19 @@ audionodes.envelope.connect(context.destination);
 // Set up nodes
 audionodes.fm_oscillator.start(context.currentTime);
 audionodes.fp_node.start(context.currentTime);
+audionodes.fm_node.start(context.currentTime);
 audionodes.fp_oscillator.start(context.currentTime);
 
 audionodes.modulation_index.gain.value = mod_index;
 audionodes.envelope.gain.value = 0;
+audionodes.fm_oscillator.frequency.value = 0;
+audionodes.fp_oscillator.frequency.value = 0;
 
 var buffer_fp = context.createBuffer(1,512,context.sampleRate);
 var buffer_fm = context.createBuffer(1,512,context.sampleRate);
-audionodes.fp_node.buffer = buffer_fm;
+audionodes.fp_node.buffer = buffer_fp;
 audionodes.fp_node.loop = true;
 audionodes.fm_node.buffer = buffer_fm;
 audionodes.fm_node.loop = true;
+
+update_parameters();
