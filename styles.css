@@ -1,0 +1,6 @@
+.block {
+	border: 1px grey solid;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
