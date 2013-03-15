@@ -9,11 +9,20 @@
 	
 </head>
 <body>
-<p>$$f(t) = m(t) \sin[ 2\pi f_p (t+i(t) \sin( 2 \pi f_m t )]$$</p>
 <input type="button" value="play/stop" id="play_button">
+<p>Réglages paramètres oscillateurs</p>
 <label for="fp">fp</label><input type="text" name="fp" value="400" id="fp">
 <label for="fm">fm</label><input type="text" name="fm" value="600" id="fm">
 <label for="i">i</label><input type="text" name="i" value="2" id="i">
+<p>Réglages paramètres temporels enveloppe (en ms)</p>
+<label for="a">a</label><input type="text" name="a" value="50" id="a">
+<label for="d">d</label><input type="text" name="d" value="150" id="d">
+<label for="s">s</label><input type="text" name="s" value="600" id="s">
+<label for="r">r</label><input type="text" name="r" value="300" id="r">
+<p>Réglages paramètre hauteur enveloppe</p>
+<label for="ah">ah</label><input type="text" name="ah" value="0.6" id="ah">
+<label for="dh">dh</label><input type="text" name="dh" value="1" id="dh">
+<label for="sh">sh</label><input type="text" name="sh" value="0.8" id="sh">
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="jsfm.js"></script>
 <p>Source: <a href="https://github.com/tfjgeorge/jsfm">https://github.com/tfjgeorge/jsfm</a></p> 
