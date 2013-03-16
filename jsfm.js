@@ -11,7 +11,8 @@ var play = function() {
 	    ah = parseFloat($("#ah").val()),
 	    dh = parseFloat($("#dh").val()),
 	    sh = parseFloat($("#sh").val());
-	audionodes.envelope.gain.setValueAtTime(ah,context.currentTime);
+	audionodes.envelope.gain.setValueAtTime(0,context.currentTime);
+	audionodes.envelope.gain.linearRampToValueAtTime(ah,context.currentTime+0.01);
 	audionodes.envelope.gain.linearRampToValueAtTime(dh,context.currentTime+a);
 	audionodes.envelope.gain.linearRampToValueAtTime(sh,context.currentTime+a+d);
 	audionodes.envelope.gain.linearRampToValueAtTime(sh,context.currentTime+a+s);
