@@ -61,12 +61,12 @@ input {
 	left: 175px;
 	width: 27px;
 }
-#vibrato_amp {
+#vibrato_freq {
 	top:324px;
 	left: 30px;
 	width: 45px;
 }
-#vibrato_freq {
+#vibrato_amp {
 	top:291px;
 	left: 258px;
 	width: 34px;
