@@ -1,0 +1,82 @@
+body, input {
+	font-family: Ubuntu;	
+}
+input {
+	color: red;
+	position: absolute;
+	background: #ffcaca;
+}
+#container {
+	position: relative;
+	width: 1024px;
+	margin: 95px auto;
+}
+#fp {
+	top:200px;
+	left: 157px;
+	width: 50px;
+}
+#fm {
+	top:140px;
+	left: 378px;
+	width: 34px;
+}
+#i {
+	top:107px;
+	left: 540px;
+	width: 36px;
+}
+#a {
+	top:9px;
+	left: 82px;
+	width: 35px;
+}
+#d {
+	top:9px;
+	left: 140px;
+	width: 33px;
+}
+#s {
+	top:9px;
+	left: 195px;
+	width: 35px;
+}
+#r {
+	top:9px;
+	left: 251px;
+	width: 35px;
+}
+#ah {
+	top:42px;
+	left: 62px;
+	width: 27px;
+}
+#dh {
+	top:42px;
+	left: 119px;
+	width: 27px;
+}
+#sh {
+	top:42px;
+	left: 175px;
+	width: 27px;
+}
+#vibrato_amp {
+	top:324px;
+	left: 30px;
+	width: 45px;
+}
+#vibrato_freq {
+	top:291px;
+	left: 258px;
+	width: 34px;
+}
+#play_button {
+	top: 150px;
+	right: 0px;
+	height: 60px;
+	opacity: 0;
+}
+#play_button:hover {
+	cursor: pointer;
+}

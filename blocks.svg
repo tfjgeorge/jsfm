@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="710.333px" height="242.25px" viewBox="0 0 710.333 242.25" enable-background="new 0 0 710.333 242.25"
+	 xml:space="preserve">
+<g>
+	<path fill="#FFFFFF" stroke="#000000" d="M641.583,124.509c0,24.157-18.099,31-18.099,31h-52.112V93.538l52.112-0.028
+		C623.484,93.509,641.583,100.352,641.583,124.509z"/>
+	<path fill="none" stroke="#C2C4C6" stroke-width="4" d="M589.083,136.489c0,0,6.295-23.423,10.54-23.423s4.345,22.252,8.979,22.252
+		s10.418-22.789,10.418-22.789"/>
+	<text transform="matrix(1 0 0 1 574.249 106.5)" font-family="'Ubuntu'" font-size="9">enveloppe</text>
+	<text transform="matrix(1 0 0 1 574.749 149)" font-family="'Ubuntu'" font-size="9">fréquence</text>
+</g>
+<g>
+	<path fill="#FFFFFF" stroke="#000000" d="M362.583,82.509c0,24.157-18.099,31-18.099,31h-52.112V51.538l52.112-0.028
+		C344.484,51.509,362.583,58.352,362.583,82.509z"/>
+	<path fill="none" stroke="#C2C4C6" stroke-width="4" d="M310.083,94.489c0,0,6.295-23.423,10.54-23.423s4.345,22.252,8.979,22.252
+		s10.418-22.789,10.418-22.789"/>
+	<text transform="matrix(1 0 0 1 295.249 64.5)" font-family="'Ubuntu'" font-size="9">enveloppe</text>
+	<text transform="matrix(1 0 0 1 295.749 107)" font-family="'Ubuntu'" font-size="9">fréquence</text>
+</g>
+<rect x="457.583" y="120.5" fill="none" stroke="#000000" width="17.5" height="53"/>
+<polyline fill="none" stroke="#000000" points="363.25,82.509 422.583,82.509 422.583,126 457.083,126 "/>
+<g>
+	<rect x="92.5" y="138.25" fill="none" stroke="#000000" width="53" height="17.5"/>
+	<text transform="matrix(1 0 0 1 96.7173 149.6675)" font-family="'Ubuntu'" font-size="9">fp</text>
+</g>
+<g>
+	<polygon fill="none" stroke="#000000" points="53.5,224.25 53.5,233.5 53.5,241.75 0.5,241.75 0.5,224.25 	"/>
+	<text transform="matrix(1 0 0 1 4.7173 235.6675)" font-family="'Ubuntu'" font-size="9">f</text>
+</g>
+<line fill="none" stroke="#000000" x1="475.917" y1="147.166" x2="571.25" y2="147.166"/>
+<g>
+	<path fill="#FFFFFF" stroke="#000000" d="M162.711,210.509c0,24.157-18.099,31-18.099,31H92.5v-61.972l52.112-0.028
+		C144.612,179.509,162.711,186.352,162.711,210.509z"/>
+	<path fill="none" stroke="#C2C4C6" stroke-width="4" d="M110.211,222.489c0,0,6.295-23.423,10.54-23.423s4.345,22.252,8.979,22.252
+		s10.418-22.789,10.418-22.789"/>
+	<text transform="matrix(1 0 0 1 95.377 192.5)" font-family="'Ubuntu'" font-size="9">enveloppe</text>
+	<text transform="matrix(1 0 0 1 95.877 235)" font-family="'Ubuntu'" font-size="9">fréquence</text>
+</g>
+<polyline fill="none" stroke="#000000" points="234.917,166.499 248.917,166.499 248.917,105.166 293.25,105.166 "/>
+<rect x="224.25" y="140.833" fill="#FFFFFF" stroke="#000000" width="17.5" height="53"/>
+<line fill="none" stroke="#000000" x1="145.917" y1="145.833" x2="224.583" y2="145.833"/>
+<polyline fill="none" stroke="#000000" points="162.711,210.509 211.25,210.509 211.25,189.166 224.208,189.166 "/>
+<line fill="none" stroke="#000000" x1="248.917" y1="166.499" x2="457.917" y2="166.499"/>
+<path fill="none" stroke="#000000" d="M395.25,198.5"/>
+<text transform="matrix(1 0 0 1 459.5308 154.166)" font-family="'Ubuntu'" font-size="24">+</text>
+<line fill="none" stroke="#000000" x1="92.083" y1="232.5" x2="53.5" y2="232.5"/>
+<rect x="170.5" y="201.25" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+<rect x="368" y="73.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+<polyline fill="none" stroke="#000000" points="205.583,26.5 251.583,26.5 541.583,26.5 541.583,103.5 571.208,103.375 "/>
+<polyline fill="none" stroke="#000000" points="291.583,60.5 249.583,60.5 249.583,26.5 "/>
+<line fill="none" stroke="#000000" x1="641.583" y1="124.5" x2="689.583" y2="124.5"/>
+<polyline fill="none" stroke="#000000" points="699.583,113.5 709.833,104.25 709.833,125.75 "/>
+<g>
+	<rect x="689.583" y="113.5" fill="none" stroke="#000000" width="10" height="22"/>
+	<polygon fill="#FFFFFF" stroke="#000000" points="699.583,113.5 699.583,135.25 709.833,144.5 709.833,104.25 	"/>
+</g>
+<g>
+	<rect x="23.917" y="0.5" fill="#FFFFFF" stroke="#000000" width="182.667" height="52"/>
+	<rect x="48.666" y="5.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<rect x="127.333" y="5.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<rect x="88" y="5.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<rect x="166.667" y="5.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<text transform="matrix(1 0 0 1 51.5825 17.167)" font-family="'Ubuntu'" font-size="9">a</text>
+	<text transform="matrix(1 0 0 1 91.249 17.167)" font-family="'Ubuntu'" font-size="9">d</text>
+	<text transform="matrix(1 0 0 1 130.5825 17.167)" font-family="'Ubuntu'" font-size="9">s</text>
+	<text transform="matrix(1 0 0 1 169.5825 17.167)" font-family="'Ubuntu'" font-size="9">r</text>
+	<rect x="29.666" y="28.417" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<rect x="108.333" y="28.417" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<rect x="69" y="28.417" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+	<text transform="matrix(1 0 0 1 32.2495 40.167)" font-family="'Ubuntu'" font-size="9">ah</text>
+	<text transform="matrix(1 0 0 1 71.583 40.167)" font-family="'Ubuntu'" font-size="9">dh</text>
+	<text transform="matrix(1 0 0 1 110.9165 40.167)" font-family="'Ubuntu'" font-size="9">sh</text>
+</g>
+<rect x="253.667" y="96.75" fill="#FFFFFF" stroke="#000000" width="34" height="17.5"/>
+<text transform="matrix(1 0 0 1 225.9995 173.666)" font-family="'Ubuntu'" font-size="24">+</text>
+<text transform="matrix(1 0 0 1 256.3843 108.3345)" font-family="'Ubuntu'" font-size="9">r</text>
+<text transform="matrix(1 0 0 1 371.0503 85.6675)" font-family="'Ubuntu'" font-size="9">i</text>
+<text transform="matrix(1 0 0 1 173.7173 212.6675)" font-family="'Ubuntu'" font-size="9">a</text>
+</svg>
