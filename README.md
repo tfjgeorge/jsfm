@@ -8,7 +8,7 @@ This was initiated in the context of the course "Acoustique, Informatique, Musiq
 Usage
 -----
 
-At the time I am writing this, it is live on http://www.tfjgeorge.com/jsfm/index.html. Otherwise, just git clone.
+At the time I am writing this, it is live on http://www.tfjgeorge.com/jsfm/index.html. Click the speaker on the right to play the sound, and change the parameters. Otherwise, just git clone.
 
 Some examples are below:
 
