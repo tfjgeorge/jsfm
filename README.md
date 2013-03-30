@@ -27,6 +27,7 @@ Trombone
 --------
 http://www.tfjgeorge.com/jsfm/index.html?fp=180&fpfm=1&i=4&a=50&d=50&s=600&r=600&ah=0.6&dh=0.8&v_amp=0.8&v_freq=4&sh=0.9
 http://www.tfjgeorge.com/jsfm/index.html?fp=120&fpfm=1&i=4&a=50&d=150&s=600&r=1200&ah=0.6&dh=0.8&v_amp=0.8&v_freq=4&sh=0.9
+http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=1&i=3&a=50&d=150&s=2000&r=150&ah=0.6&dh=1&v_amp=1&v_freq=3&sh=0.8
 
 Clarinette
 ----------
@@ -36,21 +37,3 @@ Bétisier
 --------
 http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=4&a=50&d=150&s=600&r=1200&ah=0.6&dh=1&v_amp=400&v_freq=320&sh=0.8
 
-Présentation
-------------
-1 oscillateur:
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=0&a=10&d=0&s=4000&r=10&ah=0.6&dh=1&v_amp=0.8&v_freq=6&sh=0.8
-2 oscillateurs, rapport 1
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=1&i=1&a=10&d=0&s=4000&r=10&ah=0.6&dh=1&v_amp=0.8&v_freq=6&sh=0.8
-2 oscillateurs, rapport 2
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=1&a=10&d=0&s=4000&r=10&ah=0.6&dh=1&v_amp=0.8&v_freq=0&sh=0.800
-2 oscillateurs, beaucoup d'harmoniques
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=8&a=10&d=0&s=4000&r=10&ah=0.6&dh=1&v_amp=0&v_freq=0&sh=0.8
-
-Enveloppe ADSR:
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=8&a=50&d=150&s=2000&r=150&ah=0.6&dh=1&v_amp=0&v_freq=0&sh=0.8
-Vibrato:
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=2&i=8&a=50&d=150&s=2000&r=150&ah=0.6&dh=1&v_amp=1&v_freq=3&sh=0.8
-
-Petite trompette:
-http://www.tfjgeorge.com/jsfm/index.html?fp=320&fpfm=1&i=3&a=50&d=150&s=2000&r=150&ah=0.6&dh=1&v_amp=1&v_freq=3&sh=0.8
