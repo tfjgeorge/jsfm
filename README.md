@@ -8,4 +8,4 @@ This was initiated in the context of the course "Acoustique, Informatique, Musiq
 Usage
 -----
 
-Simply git clone, then open index.html in your favorite web browser (tested on Google Chrome).
+At the time I am writing this, it is live on [http://www.tfjgeorge.com/jsfm/index.html]. Otherwise, just git clone.
