@@ -1,4 +1,4 @@
-var context = new webkitAudioContext();
+var context = new AudioContext();
 var fp = 400,
     fm = 600,
     mod_index = 2 * fp;
@@ -28,7 +28,7 @@ $("#play_button").click(function() {
 $("input").change(function() { update_parameters(); });
 
 var build_url = function(fp,fpfm,i,a,d,s,r,ah,dh,sh,v_amp,v_freq) {
-	return "http://www.tfjgeorge.com/index.html"
+	return "http://tfjgeorge.com/jsfm/index.html"
 		+ "?fp="+fp
 		+ "&fpfm="+fpfm
 		+ "&i="+i
@@ -101,19 +101,19 @@ var fill_parameters = function() {
 var audionodes = {};
 
 // Create all nodes
-audionodes.fm_node = context.createGainNode();
+audionodes.fm_node = context.createGain();
 audionodes.fm_oscillator = context.createOscillator();
-audionodes.modulation_index = context.createGainNode();
-audionodes.modulation_gain = context.createGainNode();
+audionodes.modulation_index = context.createGain();
+audionodes.modulation_gain = context.createGain();
 audionodes.fp_node = context.createBufferSource();
 audionodes.fp_oscillator = context.createOscillator();
-audionodes.volume = context.createGainNode();
+audionodes.volume = context.createGain();
 audionodes.flat = context.createBufferSource();
-audionodes.envelope = context.createGainNode();
-audionodes.alpha = context.createGainNode();
-audionodes.beta = context.createGainNode();
+audionodes.envelope = context.createGain();
+audionodes.alpha = context.createGain();
+audionodes.beta = context.createGain();
 audionodes.vibrato = context.createOscillator();
-audionodes.vibrato_gain = context.createGainNode();
+audionodes.vibrato_gain = context.createGain();
 
 // Connect all nodes together
 audionodes.fm_node.connect(audionodes.fm_oscillator.frequency);
